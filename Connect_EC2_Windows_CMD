@@ -1,0 +1,17 @@
+Connect to EC2 instance from Windows Command Line: 
+1)	Create and Launch EC2 instance into your AWS account
+2)	Click on instanceId created of EC2, click on Connect button, Go to SSH client and copy SSH command at bottom.
+3)	Open CMD in windows machine
+4)	Change the  desired directory where key-pair is saved
+5)	run the copied ssh command and we should be able to connect to EC2
+6)	However, sometimes we get below error when we run the ssh command.
+7)	This error is due to security permission on .pem file.
+8)	We have to change the permissions on .pem file.
+9)	Locate .pem file folder, right click on .pem file and select properties
+10)	Go to Security Tab, Go To Advanced Tab, Click Disable inheritance
+11)	This advance options also shows other user having all permissios to .pem file. Remove permission for all other users.
+12)	Ass user with which you are trying to connect to EC2 in not already present in user list. 
+13)	Enable all permissions to this user which will be trying to connect to EC2
+14)	Error should be resolved
+15)	Run SSH command from cmd prompt
+16)	It should connect EC2 iinstance.
