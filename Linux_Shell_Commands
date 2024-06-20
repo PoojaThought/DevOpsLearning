@@ -1,0 +1,81 @@
+LINUX Commands: 
+1)	Sudo su - : to convert normal user into root user.
+2)	Clear / ctrl + L
+3)	File creation: Only one type of file that is .txt file. No extension.  Case sensitive
+cat	touch	nano		Vi/vim
+cat > file1->Enter->add content->enter->ctrl+d(exit)	touch file2 
+touch filea fileb filec
+touch file{1..5}	nano file3 -> entr->add content->ctrl+x->Y+entr	vi file4->entr->press i->esc+:wq!+entr
+Can only add more contents, cannot edit existing content.Read only files	Emplty file	Come out file using ctrl+x	I for Insert mode : to enter into insert mode from cmd mod
+cat >> file1(To add more content 			
+cat file1		Text editor	Text editor
+4)	ls: To list all files and directories in current directory.
+5)	mkdir: create directory. mkdir dir1, dir2, dir3
+6)	ls -l or ls -ltr: To know more about files/directories in current directory.   d – directory - - files
+7)	ls -a: To list all files inside current directory like hidden files. We hidden files so that we should not delete them by mistake.  .file1 or .dir1 will become hidden. 
+8)	ls -la : ling list + hidden files
+9)	mkdir -p dira/dirb/dirc/dird : To create directories in hierarchy.
+10)	cd dir1: change directory
+11)	cd .. : To come back to previous directory. ‘.’ Means current directory
+12)	cd dira/dirb/dirc/dird
+13)	cd ../../../..
+14)	pwd(present working dir) : gives current location
+15)	~ : home directory
+16)	cd : Only cd from anywhere takes you to Home directory. 
+17)	apt install tree -> tree : tree package helps to display hierarchy/tree structure from your current location.
+18)	cp(Copy Paste) file4 dir1 : copy from source to destination
+19)	cp -r dir1 dira : copy dir1 into dir a. -r means recursive.
+20)	mv(Cut Paste) file3 dir2: move file3 into dir2
+21)	mv file1 file100(Rename) : when destination is not there mv converts as rename. 
+22)	rm -rf : Streight away deletion
+23)	history : displays all commands used so far.
+24)	touch dira/dirb/dirc/dird/file1
+25)	touch ../../file1 : creates file under dirb
+26)	ls / : gives list of all files/directories under /
+27)	mkdir /temp: create directory under top level
+28)	grep root /etc/password : find ‘root’ word inside password file
+29)	less /etc/password : To open file. 
+30)	more /etc/password : To open file. 
+31)	head /etc/password : To display top 10 lines. 
+32)	head  -3 /etc/password : To display botton 3 lines.
+33)	tail /etc/passwd: To display bottom 10 lines
+34)	shortcut : copy content + right click for paste
+35)	shortcut : ds + tab : dsfjkdgdkjgidjgkdklfklfdk file comes up
+36)	hostname : computer name : can run from anywhere
+37)	ifconfig : to know ip address of EC2 instance : can run from anywhere
+38)	hostname -I : only ip address : can run from anywhere
+39)	cat /etc/os-release : OS related info : can run from anywhere
+40)	cat /etc/os-re* 
+41)	apt install : to insall package
+42)	apt update 
+43)	apt remove
+44)	which git : need to vierify whether package is insa\talled or no
+45)	apt list installed :list all package installed
+46)	 apt list installed | grep httpd* : merge two commands
+47)	man ls : provide help of command
+48)	nproc : will list CPU on machine
+49)	free  or free -g: will list memory usage
+50)	top : will list all processes with memory and other info
+51)	df -h: list disc space 
+
+
+SHELL Scripting
+1)	Open .sh file using vim abc.sh
+2)	Press ‘I’ to enter into Insert mode
+3)	Enter #!/(called shebang)bin/bash  
+Diff between /bin/sh and /bin/bash 
+       4)echo “I am learning”
+       5)Esc+:wq!
+       6) Execute shell script or any executable :     ./bashfile.sh(gives permission denied error because  or sh bashfile.sh
+        7) chmod : This cmd grants the permission. Ch means change. Chmod is divided into 3 sections, 
+                1)root users 2)Group users 3) what are your permissions
+                   Chmod 777 bashfile.sh : permission to everyone. 7 digit comes from 4-    read, 2-write, 1-execute
+
+
+Reasons for Linux/Shell Scripting in DevOps life: 
+1)	Infrastructure Management
+2)	Code – GitHub
+3)	Configuration Management
+4)	Eg: John is DevOps guy who is working for Amazon and his team has around 10000 machine under them.He has to monitor nod health of all machines. Everytime he has to go to this VM and Dev are facing problem with some nods like memory issue or CPU is going out or Linux is very slow or processes running on this VMs are very slow. In those scenarios, he will run shellscript saved in GitHub and run it. Instead of waiting Devs to come up with issues, he can create shell script and run once a day basis to check on all machines. 
+                          
+
