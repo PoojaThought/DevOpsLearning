@@ -1,0 +1,6 @@
+Linux: Open source and free. Comes from Unix. 
+Flavors of Linux: Red Hat, Centos, Ubuntu, Amazon, fedora
+Advantages of Linux: - free n open source - Light weight nd very fast as it doesn't have extra layer of GUI. - Secure from hackers and virus
+Linux Architecture: Hardware - Kernel - Shell - User
+Linux FileSystem Hierarchy: /(Top level root directory) - root(default/home dir for root user), home(default/home dir for other users), boot(OS related files), etc(configuration related files), usr(package can be installed in this dir), bin(cmds can be run by normal and root users), sbn(cmds can be executed by only root users)
+linux vocabulary: Kernel, directory, root, package, /
