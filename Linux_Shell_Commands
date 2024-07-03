@@ -3,12 +3,12 @@ LINUX Commands:
 2)	Clear / ctrl + L
 3)	File creation: Only one type of file that is .txt file. No extension.  Case sensitive
 cat	touch	nano		Vi/vim
-cat > file1->Enter->add content->enter->ctrl+d(exit)	
+cat > file1->Enter->add content->enter->ctrl+d(exit), Creates only read only files
 touch file2 - empty file
 touch filea fileb filec
 touch file{1..5}	
 nano file3 -> entr->add content->ctrl+x->Y+entr	
-vi file4->entr->press i->esc+:wq!+entr, Can only add more contents, cannot edit existing content.Read only files, I for Insert mode : to enter into insert mode from cmd mod
+vi file4->entr->press i->esc+:wq!+entr, Can only add more contents, I for Insert mode : to enter into insert mode from cmd mod
 cat >> file1(To add more content 			
 cat file1(Print file) nano(Text editor)	vi(Text editor)
 4)	ls: To list all files and directories in current directory.
