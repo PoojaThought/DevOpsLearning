@@ -1,0 +1,8 @@
+DevOps is a culture adopted by organization to improve delivery of an Organization's application. 
+DevOps is process of improving application delivery by ensuring proper automation is in place, quality is maintained, testing and monitoring is done properly.
+Traditionally Dev rights and check in the code of an application. Sys Admin creates server on which app is going to be host. Server Admin will install App Server to host the application. Test engineer takes the code and do testing on web server. BRE releases this app in onto production server and monitors it. Collaboration among these teams would take long time to release the application for users and that's why DevOps comes into picture.
+SDLC lifecycle: Planning-Defining-Designing-Building-Testing-Deployment 
+DevOps engineers fasten the process of delivering the code quickly to Customers by ensuring testing, monitoring happens properly.
+Virual Machines: Local seperations of physical servers through Hyperviser software. These VMs have their own CPU, RAM and hardware. It means all VMs are independent of each other.
+Physical Servers come with high configurations like 100 GB RAM and 100 core etc. Actual application need very small configuration so Hyperwiser will logically divide server into multiple VMs.
+Ways to create EC2 instances into AWS: AWS CLI, AWS API, AWS CFT, Terraform(hybrid-cloud platform), AWS UI, AWS CDK
