@@ -8,7 +8,7 @@ touch filea fileb filec
 touch file{1..5}	nano file3 -> entr->add content->ctrl+x->Y+entr	vi file4->entr->press i->esc+:wq!+entr
 Can only add more contents, cannot edit existing content.Read only files	Emplty file	Come out file using ctrl+x	I for Insert mode : to enter into insert mode from cmd mod
 cat >> file1(To add more content 			
-cat file1		Text editor	Text editor
+cat file1(Print file) Text editor	Text editor
 4)	ls: To list all files and directories in current directory.
 5)	mkdir: create directory. mkdir dir1, dir2, dir3
 6)	ls -l or ls -ltr: To know more about files/directories in current directory.   d – directory - - files
