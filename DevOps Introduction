@@ -13,3 +13,5 @@ Wats to automate the creation of AWS EC2 instance:
     3) Using Aws-API: from python install Boto3 package and write shell scripts
 Install AWS-CLI on ubuntu machine: sudp snap install aws-cli --classic
 Authentic yourself through AWS-CLI: aws configure,  provide access key and secret access key whenever asked
+Installations needed to create python script using boto3 module: AWS-CLI, python3, Boto3, pycharm
+while writing .py script, import boto3 package into pycharm editor as well to avoid no 
