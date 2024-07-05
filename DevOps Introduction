@@ -8,6 +8,8 @@ Physical Servers come with high configurations like 100 GB RAM and 100 core etc.
 Ways to create EC2 instances into AWS: AWS CLI, AWS API, AWS CFT, Terraform(hybrid-cloud platform), AWS UI, AWS CDK
 Ways to connect EC2 instance: usint cmd prompt l, putty, mobixterm on windows, iTerm2 on mac
 Wats to automate the creation of AWS EC2 instance:
-    1) using AWS CLI: We can control multiple AWS services from this cmd line and automate then through scripts.
+    1) using AWS CLI: We can control multiple AWS services from this cmd line and automate then through scripts
+    2) AWS cloud fornation template: 
+    3) Using Aws-API: from python install Boto3 package and write shell scripts
 Install AWS-CLI on ubuntu machine: sudp snap install aws-cli --classic
 Authentic yourself through AWS-CLI: aws configure,  provide access key and secret access key whenever asked
