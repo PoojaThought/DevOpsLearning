@@ -6,3 +6,8 @@ DevOps engineers fasten the process of delivering the code quickly to Customers 
 Virual Machines: Local seperations of physical servers through Hyperviser software. These VMs have their own CPU, RAM and hardware. It means all VMs are independent of each other.
 Physical Servers come with high configurations like 100 GB RAM and 100 core etc. Actual application need very small configuration so Hyperwiser will logically divide server into multiple VMs.
 Ways to create EC2 instances into AWS: AWS CLI, AWS API, AWS CFT, Terraform(hybrid-cloud platform), AWS UI, AWS CDK
+Ways to connect EC2 instance: usint cmd prompt l, putty, mobixterm on windows, iTerm2 on mac
+Wats to automate the creation of AWS EC2 instance:
+    1) using AWS CLI: We can control multiple AWS services from this cmd line and automate then through scripts.
+Install AWS-CLI on ubuntu machine: sudp snap install aws-cli --classic
+Authentic yourself through AWS-CLI: aws configure,  provide access key and secret access key whenever asked
