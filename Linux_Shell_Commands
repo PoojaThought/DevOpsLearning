@@ -42,7 +42,7 @@ cat file1(Print file) nano(Text editor)	vi(Text editor)
 31)	head /etc/password : To display top 10 lines. 
 32)	head  -3 /etc/password : To display botton 3 lines.
 33)	tail /etc/passwd: To display bottom 10 lines
-34)	shortcut : copy content + right click for paste
+34)	shortcut : highlight content for copy + right click for paste
 35)	shortcut : ds + tab : dsfjkdgdkjgidjgkdklfklfdk file comes up
 36)	hostname : computer name : can run from anywhere
 37)	ifconfig : to know ip address of EC2 instance : can run from anywhere
